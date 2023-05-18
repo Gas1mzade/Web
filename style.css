@@ -3,26 +3,30 @@ body {
   font-weight: 500;
 }
 
-header {
-  padding: 35px 0;
-  background-color: #d56363;
-}
-header h1 {
-  color: #f3bd5b;
-  font-size: 30px;
-}
-
 #web {
-  background-color: #7fbae7;
-  height: 50vh;
+  padding: 100px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #f4f3ee;
+}
+#web .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #8d99ae;
+  border-radius: 15px;
+  background-color: #cad2c5;
+  height: 300px;
+  width: 200px;
+}
+#web .box h1 {
+  font-size: 30px;
 }
 #web .box input {
-  border: 3px solid #ebb46c;
-  width: 200px;
-  height: 100px;
+  margin: 50px 5px;
 }
 #web .box .btn {
-  border: 3px solid #84a74b;
+  border: 1px solid #150d0d;
+  margin: 5px 50px;
 }/*# sourceMappingURL=style.css.map */
