@@ -3,42 +3,19 @@ $(document).ready(function () {
 
     
 
-$('.btn').click(function (e) { 
+
+$('.btn').click(function (e) {
     e.preventDefault();
-    let a = a => {
-        if (Number(a)){
-            for (let i = 0; i <= a; i++) {
-            $('.box').append(`<h1>${a}</h1>`);
-            
+    if (!$.trim($('input').val()) == '') {
+        let a = b => {
+            for (let i = 0; i < b; i++) { 
+                $('.minibox').append(`<h2>${b}</h2>`) };
         }
-        }else{
-            $('.box').append(`<h1>${a}</h1>`);
-        }
+        let v = f => Number(f) ? a(f) : $('.minibox').append(`<h2>${f}</h2>`);
+        v($('input').val());
     }
-    a($('input').val())
-});
-
-
-
-// $('.btn').click(function (e) {
-//     e.preventDefault();
-//     let a = (a) => {
-//         if (Number(a)) {
-//             for (let i = 0; i < a; i++) {
-//                 $('.box').append(`<h2>${a}</h2>`);
-//             }
-//         } else {
-//             if (String(a)) {
-//                 $('.box').append(`<h2>${a}</h2>`);
-//             }
-//         }
-//     }
-//     a($('input').val());
-//     $('input').val("");
-// });
-
-
-
+    $('input').val('')
+})
 
 
 
