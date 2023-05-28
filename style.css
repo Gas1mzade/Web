@@ -7,7 +7,7 @@ body {
   padding: 100px 0;
 }
 #web .box {
-  background-color: #9C6644;
+  background-color: #9c6644;
   padding: 50px;
   border-radius: 20px;
   width: 250px;
@@ -20,29 +20,27 @@ body {
 }
 #web .box input {
   height: 54px;
-  border: 3px solid #7F5539;
-  border-radius: 10px;
+  border: 1px solid #9c6644;
+  border-radius: 20px;
   font-size: 19px;
   margin-bottom: 70px;
 }
 #web .box .btn {
-  background-color: #7F5539;
-  border: 2px solid #bb9457;
+  background-color: white;
+  border: 2px solid #9c6644;
   width: 100px;
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 18px;
 }
 #web .box .btn h4 {
   cursor: pointer;
 }
 #web .box .btn:hover {
-  background-color: #e9c46a;
   cursor: pointer;
 }
 #web .minibox {
   width: 200px;
   margin-top: 20px;
-  border-radius: 10px;
   text-align: center;
 }
 #web .minibox h2 {
